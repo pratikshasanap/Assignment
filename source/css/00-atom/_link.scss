@@ -1,0 +1,18 @@
+.footer__link{
+  color:$color-white;
+  text-decoration: underline;
+}
+
+
+.footer__links{
+    //vertical-align: text-bottom;
+    color:$color-dark-grey;
+    font-size:14px;
+    white-space: pre-line;
+    text-decoration: underline;
+}
+
+.footer--link--circle{
+    font-size: 5px;
+    vertical-align: middle;
+}

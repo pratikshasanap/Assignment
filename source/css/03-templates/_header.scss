@@ -1,0 +1,10 @@
+.header{
+    background-color:$color-darkblue;
+  }
+
+.text--device{
+    @include for-size(tablet-portrait-up){
+      padding-left:0px;
+      padding-right: 0px;
+  }
+}

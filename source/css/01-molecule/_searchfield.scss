@@ -1,0 +1,15 @@
+.searchfield{
+    background-color: $color-white;
+    display:flex;
+    @include for-size(phone-only) {    
+        margin-bottom:10px;
+        border-right:none; 
+        margin:10px 15px 10px 10px;;
+     }
+}
+
+.searchfield--border{
+    @include for-size(tablet-portrait-up) {    
+        border-right:1px solid $color-lighter-gray;
+     } 
+}

@@ -1,0 +1,35 @@
+.transport__circle{
+    font-size:5px;
+    vertical-align:middle;
+}
+
+.transport__bus{
+    border:1px solid $color-light-grey;
+    border-radius:4px;
+    border-bottom: 3px solid $color-grey;
+    @include for-size(phone-only) {    
+        display: flex;
+        align-items: center;
+        padding-top: 3px;
+        padding-bottom: 3px;
+     }
+
+     span{
+        @include for-size(phone-only) {    
+            padding-left:5px;
+         }
+     }
+}
+
+.transport__arrow{ 
+    color:$color-light-blue;
+  }
+
+// Modifier
+.transport--bus--available{
+    border-bottom-color: $color-green;
+}
+
+.transport--bus--unavailable{
+    border-bottom-color: $color-red;
+}

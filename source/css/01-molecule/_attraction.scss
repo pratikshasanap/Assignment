@@ -1,0 +1,7 @@
+.attraction{
+    background-color: $color-white;
+
+    @include for-size(phone-only){
+        margin:15px 15px 0px 10px;
+    }
+}

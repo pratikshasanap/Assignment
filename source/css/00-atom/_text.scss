@@ -1,0 +1,19 @@
+.header__text{
+    color:$color-white;
+    font-size: 2.0rem; 
+    @include for-size(phone-only) {    
+        font-size: 1.3rem; 
+     }
+  }
+
+  .transport__minutes{
+    color:$color-grey;
+  }
+
+  .footer__text{
+    color:$color-orangered;
+  }
+
+  .footer__color__white{
+      color:$color-white;
+  }

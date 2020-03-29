@@ -1,0 +1,5 @@
+.transport{
+    @include for-size(phone-only){
+        margin:0px 15px 0px 10px; 
+    }
+}

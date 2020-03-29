@@ -1,0 +1,9 @@
+.transport__block{
+    background-color: $color-white;
+    border-bottom: 1px solid $color-lighter-gray;
+   // margin-right: 20px;
+   
+    &:hover{
+        cursor: pointer;
+    }
+}
